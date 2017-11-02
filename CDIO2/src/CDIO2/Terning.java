@@ -5,6 +5,7 @@ public class Terning {
 	static int antalØjne;
 	
 	public Terning(int øjne) {
+		
 		øjne = antalØjne;
 	}
 	
