@@ -1,7 +1,6 @@
 package CDIO2;
 
 public class Terning {
-<<<<<<< HEAD
 		 
 		static int antalØjne;
 		
