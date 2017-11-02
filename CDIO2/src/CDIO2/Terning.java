@@ -1,7 +1,7 @@
 package CDIO2;
 
 public class Terning {
-		
+		 
 		static int antalØjne;
 		
 		public Terning(int øjne) {
