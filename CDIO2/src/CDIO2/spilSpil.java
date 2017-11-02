@@ -6,6 +6,8 @@ public class spilSpil {
 		
 	Raflebæger.rollCup(5);
 	Raflebæger.getSum();
+	Terning.setAntalØjne(9001);
+	System.out.println(Terning.getAntalØjne());
 	
 		
 	}

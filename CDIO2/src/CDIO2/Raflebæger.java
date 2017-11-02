@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Raflebæger {
-
+	
 	static List<Integer> resultatListe = new ArrayList<Integer>();
 	public static List<Integer> rollCup(int n) {
 		for (int i = 1; i <= n; i++) {
