@@ -12,5 +12,25 @@ public class Spiller {
 		Position = P;
 		this.Konto = Konto;
 	}
-
+	
+	public String getNavn()
+	{
+		return Navn;
+	}
+	
+	public void setNavn(String NytNavn)
+	{
+		Navn = NytNavn;
+	}
+	
+	public int getPosition()
+	{
+		return Position;
+	}
+	
+	public void setPosition(int NyPosition)
+	{
+		Position = NyPosition;
+	}
 }
+
