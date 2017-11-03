@@ -1,12 +1,12 @@
-START
-PLADS NR 2
-PLADS NR 3
-PLADS NR 4
-PLADS NR 5
-PLADS NR 6
-PLADS NR 7
-PLADS NR 8
-PLADS NR 9
-PLADS NR 10
-PLADS NR 11
+Tower
+Crater
+Palace Gates
+Cold Dessert
+Walled City
+Monastery
+Black Cave
+Huts in the Mountain
+The Werewall
+The Pit
+Goldmine
 PLADS NR 12
