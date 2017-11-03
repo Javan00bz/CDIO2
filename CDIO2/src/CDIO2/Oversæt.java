@@ -8,8 +8,7 @@ import java.util.ArrayList;
 import desktop_resources.GUI;
 
 public class Oversæt {
-	String line = "\r\n";
-
+	
 	public static ArrayList<String> file1() {
 
 		ArrayList<String> lines1 = new ArrayList<String>();
@@ -25,28 +24,29 @@ public class Oversæt {
 		} catch (IOException e) {
 			System.out.println("error");
 		} finally {
-			System.out.println("board created");
+			System.out.println("file1 read");
 		}
 		return lines1;
 	}
 
 	public static ArrayList<String> file2() {
 
-		ArrayList<String> lines2 = new ArrayList<String>();
+		ArrayList<String> lines1 = new ArrayList<String>();
+
 		try {
-			BufferedReader reader2 = new BufferedReader(new FileReader("file2.txt"));
+			BufferedReader reader1 = new BufferedReader(new FileReader("file2.txt"));
 			String line = "\r\n";
-			while ((line = reader2.readLine()) != null) {
-				lines2.add(line);
+			while ((line = reader1.readLine()) != null) {
+				lines1.add(line);
 			}
-			System.out.println(lines2);
-			reader2.close();
+			System.out.println(lines1);
+			reader1.close();
 		} catch (IOException e) {
 			System.out.println("error");
 		} finally {
-			System.out.println("board created");
+			System.out.println("file2 read");
 		}
-		return lines2;
+		return lines1;
 	}
 
 	public static ArrayList<String> file3() {
@@ -63,7 +63,7 @@ public class Oversæt {
 		} catch (IOException e) {
 			System.out.println("error");
 		} finally {
-			System.out.println("board created");
+			System.out.println("file3 read");
 		}
 		return lines1;
 	}
@@ -82,7 +82,7 @@ public class Oversæt {
 		} catch (IOException e) {
 			System.out.println("error");
 		} finally {
-			System.out.println("board created");
+			System.out.println("file4 read");
 		}
 		return lines1;
 	}
