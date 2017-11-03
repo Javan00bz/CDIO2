@@ -4,9 +4,9 @@ public class spilSpil {
 	
 	public static void main (String[] args) {
 		
-	Raflebæger.rollCup(5);
+	Raflebæger.rollCup(10000);
 	Raflebæger.getSum();
-	Terning.setAntalØjne(9001);
+	Terning.setAntalØjne(5);
 	System.out.println(Terning.getAntalØjne());
 	
 		

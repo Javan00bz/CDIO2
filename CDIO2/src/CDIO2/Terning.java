@@ -19,5 +19,5 @@ public class Terning {
 		
 		public static void setAntalØjne(int nytAntalØjne) {
 			antalØjne = nytAntalØjne;
-}
+	}
 }

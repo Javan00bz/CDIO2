@@ -22,4 +22,6 @@ public class Raflebæger {
 		System.out.println(sum);
 		return sum;
 	}
+	
+
 }
